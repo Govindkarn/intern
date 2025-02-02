@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: bisque;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            height: 100vh;
+        }
+        .container{
+            height: 425px;
+            width: 350px;
+            background-color: aliceblue;
+            display: flex;
+            flex-direction: column; 
+            text-align: center;           
+            border-radius: 10px;
+            box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .header{
+            background-color: rgb(184, 184, 191);
+            height: 120px;
+            width: 350px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            justify-content: center;
+            display: flex;
+        }
+        img{
+            clip-path: circle(35%);
+            height: 150px;
+            width: 150px;
+            margin-top: 50px;
+        }
+        .main{
+            margin-top: 70px;
+            padding-left: 5px;
+            padding-right: 5px;
+            line-height: 25px;
+        }
+        .btn{
+            background-color: rgb(94, 17, 167);
+            border: 1px rgb(126, 41, 207);
+            color: aliceblue;
+            border-radius: 3px;
+            margin-bottom: 10px;
+            padding: 6px 10px;
+            font-size: 10px;
+        }
+        h3, p {
+            color: rgb(119, 117, 117);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="img1.jpeg">
+        </div>
+        <div class="main">
+            <h2>Govind Karn</h2>
+            <h3><i>Web Developer</i></h3>
+            <p>Passionate developer with expertise in creating modern nad responsive websites. Skilled in HTML, CSS and JavaScript</p>
+            <button type="button" class="btn">CONNECT</button>
+        </div>
+    </div>
+</body>
+</html>

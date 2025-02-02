@@ -1,0 +1,97 @@
+header{
+    background-color: rgb(40, 39, 39);
+    color: aliceblue;
+    padding-left: 5%;
+    display: flex;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    /* justify-content: right; */
+    padding-left: 600%;
+    padding-top: 5px;
+}
+.nav li{
+    display: inline;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+.nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: rgb(163, 208, 247);
+}
+footer{
+    background-color: rgb(40, 39, 39);
+    color: aliceblue;
+    text-align: center;
+    padding: 7px;
+}
+.section-c{
+    background-color: rgb(218, 226, 233);
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+} 
+.section-a{
+    text-align: center;
+    background-color: rgb(218, 226, 233);
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.section-b{
+    text-align: center; 
+    margin-bottom: 30px;           
+}
+/* .skills p{
+    margin-left: 37%;
+    padding: 5px;
+    background-color:rgb(218, 226, 233);
+    color: black;
+    width: 25%;
+    height: 22px;
+    border-radius: 3px;
+} */
+.section-b .skill{
+    background-color:rgb(218, 226, 233);
+    color: black;
+    border-radius: 5px;
+    margin:  5px auto;
+    padding: 15px;
+    width: 300px;
+  
+}
+button{
+    background-color: rgb(101, 115, 243);
+    color: aliceblue;
+    text-align: center;
+}
+input{
+    width: 50%;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 3px;
+}
+textarea{
+    border-radius: 5px;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.class-form{
+    text-align: left;
+    margin-left: 32%;
+}
+.btn{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px;
+    padding: 7px 15px;
+    border-radius: 5px;
+}

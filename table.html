@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            /* border: 1px solid; */
+            /* text-align: center; */
+        }
+    </style>
+</head>
+<body>
+    <table border="1px" cellpadding="10" cellspacing="10">
+        <tr>
+            <th rowspan="2">Employee ID</th>
+            <th rowspan="2">Full Name</th>
+            <th colspan="2">Position</th>
+            <th rowspan="2">Department</th>
+        </tr>
+        <tr>
+            <th>Job Title</th>
+            <th> Location</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>John Doe</td>
+            <td>Manager</td>
+            <td>New York</td>
+            <td rowspan="2">Sales</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Jane Smith</td>
+            <td>Developer</td>
+            <td>San Francisco</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Jane Smith</td>
+            <td>Developer</td>
+            <td>San Francisco</td>
+            <td>Creative</td>
+        </tr><tr>
+            <td>102</td>
+            <td>Sam Wilson</td>
+            <td>Designer</td>
+            <td>Los Angeles</td>
+            <td>Human resources</td>
+        </tr>
+        <tr>
+            <td colspan="5"  style="text-align: center;">End of Table</td>
+        </tr>
+    </table>
+</body>
+</html>

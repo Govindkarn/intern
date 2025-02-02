@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+    <style>
+        .container{
+            display: grid;
+            /* we can divide our boxes into columns */
+            /* grid-template-columns: 100px 100px 100px 100px 100px 100px 100px; */
+            /* grid-template-columns: 100px 100px 100px; */
+            /* grid-template-columns: 1fr 1fr 2fr 3fr; */
+            /* grid-template-rows: 50px 20px; */
+            grid-template-columns: 100px 100px 100px;
+            grid-gap: 5px;
+            /* justify-items: center; */
+            /* align-items: center; */
+            /* grid template column ma grid auto column kam gardaina */
+            /* grid-auto-columns: 100px 10px; */
+            /* grid auto row ma if 4 row then duita ma different size apply gareko xa vane first value will apply to row 1 and 3 */
+            grid-auto-rows: 60px 80px 120px;
+            /* grid-template-rows: 50px 50px 50px 50px; */
+            grid-template-areas: "area area area";
+            background-color: rgb(208, 224, 254);
+        }
+        .item, .item-1, .item-2{
+            background-color: cornflowerblue;
+            border: 1px solid black;
+            /* filters are here */
+            /* filter: blur(3px); */
+            /* filter: brightness(50%); */
+            /* filter: grayscale(50%); */
+            /* filter: contrast(50%); */
+            /* filter: opacity(0.6); */
+            /* grid-column: 2/4; */
+            /* grid-column: span 3; */
+            /* cursor: grab; */
+            /* cursor: grabbing; */
+            /* cursor: nwse-resize; */
+            /* box-shadow: -10px -10px 10px red; */
+            /* box-shadow: 10px 10px 30px blue; */
+        }
+        .item-1{
+            /* box-shadow: 10px 10px 10px blue; */
+            /* grid-area: Area; */
+            
+        }
+        .item-2{
+            /* grid-area: two; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item-1">Item 1</div>
+        <div class="item-2">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+        <div class="item">Item 7</div>
+        <div class="item">Item 8</div>
+        <div class="item">Item 9</div>
+        <div class="item">Item 10</div>
+        <div class="item">Item 11</div>
+        <div class="item">Item 12</div>
+    </div>
+</body>
+</html>

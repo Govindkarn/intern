@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* background-color: cadetblue; */
+        }
+        .box{
+            border: 1px solid black;
+            height: 50px;
+            width: 50px;
+            background-color: aqua;
+            transition: transform 0.5s ease 0.2s;
+
+            /* transform: rotate(45deg);
+            transform-origin: center; */
+        }
+        .item1:hover{
+            transform: rotate(45deg);
+            transform-origin: center;
+        }
+        .item2:hover{
+            border: 1px solid black;
+            height: 50px;
+            width: 50px;
+            background-color: aqua;
+            transform: scale(1.5, 0.2);
+
+        }.item3:hover{
+            border: 1px solid black;
+            height: 50px;
+            width: 50px;
+            background-color: aqua;
+           transform: translate(50px, 500px);
+
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="item1 box">item1</div>
+        <div class="item2 box">item2</div>
+        <div class="item3 box">item3</div>
+    </div>
+</body>
+</html>

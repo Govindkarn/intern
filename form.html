@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        div{
+            border: 1px solid black;
+            text-align: left;
+            border-radius: 5px;
+            padding-left: 20px;
+            background-color: rgb(249, 240, 230);
+            margin-left: 25%;
+            margin-right: 25%;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            font-family: "Roboto", serif;
+
+        }
+        div h2{
+            text-align: center;
+        }
+        #name, #email, #address, #phone, #dateofbirth, #dateofbirthtime, #datetimelocal, #colour, #myRange{
+            width: 95%;
+        }
+        #file{
+            color: rgb(14, 58, 58);
+            background-color: rgb(56, 182, 42);
+            height: 5px;
+        }
+        #colour{
+            height: 15px;
+        }
+        #myRange{
+            height: 3px;
+        }
+        .btn{
+            background-color: rgb(158, 147, 168);
+            width: 95%;
+            padding: 4px;
+            margin-top: 3px;
+            margin-bottom: 30px;
+        }
+        #fruit1{
+            margin-left: 40px;
+        }
+        #Male{
+            margin-left: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+            <h2>Basic Form Element</h2>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name"><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email"><br>
+            <label for="address">Address</label><br>
+            <input type="text" id="address" name="address" placeholder="Enter Your Address"><br>
+            <label for="phone">Phone</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="+977 1234567890"><br>
+            <label for="dateofbirth">Date Of Birth</label><br>
+            <input type="date" id="dateofbirth" name="dateofbirth" placeholder="13/10/2025"><br>
+            <label for="dateofbirthtime">Date Of Birth Time</label><br>
+            <input type="datetime" id="dateofbirthtime" name="dateofbirthtime" placeholder="12:30"><br>
+            <label for="datetimelocal">Date-Time-Local</label><br>
+            <input type="datetime-local" id="datetimelocal" name="datetimelocal" placeholder="13/01/2025,12:30"><br>
+            <label for="fruit">Tick your favourite fruits</label>
+            <input type="checkbox" id="fruit1" name="fruit1" value="Banana">
+            <label for="fruit1">Banana</label>
+            <input type="checkbox" id="fruit2" name="fruit2" value="Apple">
+            <label for="fruit2">Apple</label>
+            <input type="checkbox" id="fruit3" name="fruit3" value="Orange">
+            <label for="fruit3">Orange</label><br>
+            <label for="Gender">Select Your gender</label>
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label for="html">Male</label>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="css">Female</label><br>
+            <label for="message">Message</label><br>
+            <textarea name="message" placeholder="Write Your Message Here" rows="3" cols="92"></textarea><br>
+            <label for="colour">Select your favourite colour</label><br>
+            <input type="color" id="colour" name="colour" value="#0000ff"><br>
+            <label for="fruits">Please select favourite fruits</label><br>
+            <select name="fruits" id="cars">
+                <option value="Apple">Apple</option>
+                <option value="Mango">Mango</option>
+                <option value="Grapes">Grapes</option>
+            </select><br>
+            <input type="range" min="1" max="100" value="50" id="myRange"><br>
+            <label for="html">HTMl</label><br>
+            <progress id="file" value="40" max="100"> 40% </progress>
+
+
+                <button type="button" class="btn">Submit</button>
+            
+        </form>
+    </div>
+</body>
+</html>

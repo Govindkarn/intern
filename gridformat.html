@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-rows: 30px 500px 40px;
+            row-gap: 3px;
+            column-gap: 3px;
+            padding: 10px;
+            grid-template-areas: "header header "
+            "sidebar main "
+            "footer footer ";
+            background-color: rgb(42, 29, 12);
+            /* rem respect to html ani em vaneko respect to parent px vaneko all sides*/
+        }
+        .header{
+            grid-area: header;
+            background-color: aqua;
+            padding-left: 10px;
+        }
+        .sidebar{
+            grid-area: sidebar;
+            background-color: aquamarine;
+            padding-left: 10px;
+        }
+        .main{
+            grid-area: main;
+            background-color: blueviolet;
+            padding-left: 10px;
+
+        }
+        .footer{
+            grid-area: footer;
+            background-color: cadetblue;
+            padding-left: 10px;
+        }
+        .item{
+            background-color: rgb(241, 238, 236);
+            border: 1px solid black;
+            width: 100px;
+            margin-left: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="sidebar">Sidebar
+            <div class="item">Item1</div>
+            <div class="item">Item2</div>
+            <div class="item">Item3</div>
+            <div class="item">Item4</div>
+        </div>
+        <div class="main">Main</div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+</html>
